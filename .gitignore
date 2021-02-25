@@ -27,7 +27,7 @@ missing
 src/.deps/
 src/.libs/
 wavpack.pc
-*.wav
+# *.wav
 *.wv*
 
 #
