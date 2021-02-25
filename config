@@ -1,0 +1,12 @@
+pathToExecutable: cli/wavpack
+pathToMakefile: ./
+pathToInput: in/
+args: -y @@
+dictionary: wav.dict
+model: wav.xml
+shouldConfigure: no
+lang: c++
+apt:
+-  libssl-dev
+fuzzer: aflsmart
+pre_fuzz: ./autogen.sh
